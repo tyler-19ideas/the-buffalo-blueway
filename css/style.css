@@ -665,7 +665,7 @@ blockquote {
     .homepage-hero {
     margin: 10px auto;
     padding-top: 15px;
-    background-position: -30em;
+    background-position: 50em;
     background-size: cover;
     background-repeat: none;
   }
