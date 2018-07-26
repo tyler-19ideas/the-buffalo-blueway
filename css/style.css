@@ -300,11 +300,11 @@ header {
     text-shadow: rgba(0,0,0,.5) 2px 2px 5px;
   }
 
-/* ==== HEADER & NAVIGATION ====*/
+/* ==== HEADER & NAVIGATION ==== */
 
 footer {
   background-color: #005baa;
-  height: 32px;
+  height: 48px;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
