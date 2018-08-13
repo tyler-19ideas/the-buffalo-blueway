@@ -1,9 +1,10 @@
 /* ==== FONTS ====*/
 
-<link
-  href="https://fonts.googleapis.com/css?family=Montserrat:800|Open+Sans"
-  rel="stylesheet"
-  > /* ==== BODY ====*/
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:800|Open+Sans" rel="stylesheet">
+
+   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+
+   /* ==== BODY ====*/
   body {
   font-size: 100%;
 }
@@ -16,8 +17,14 @@ h4,
 h5,
 h6 {
   font-size-adjust: 0.5;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #005baa;
+  font-weight: 400;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
 }
 
 /* ==== HIGHLIGHTING ====*/
@@ -208,10 +215,10 @@ hr {
 header {
   background-color: #005baa;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 14px;
   letter-spacing: 0.1em;
-  font-weight: 700;
+  font-weight: 400;
   height: 48px;
   line-height: 48px;
   padding: 0px 1em;
@@ -234,7 +241,7 @@ header {
 #navigationBar > ul > li > a {
   color: #fff;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 400;
   display: inline-block;
   line-height: 48px;
   padding: 0px 15px;
@@ -255,7 +262,8 @@ header {
 #logo-title a {
   color: #fff;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
   display: inline-block;
   line-height: 48px;
   padding: 0px;
@@ -308,11 +316,11 @@ footer {
   background-color: #005baa;
   height: 48px;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 14px;
   letter-spacing: 0.1em;
   padding: 1em 1em 0em 1em;
-  font-weight: 700;
+  font-weight: 400;
   margin-top: 50px;
 }
 
@@ -362,9 +370,9 @@ ol {
   padding: 15px 25px;
   border: 1px solid #005baa;
   color: #005baa;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   float: left;
   font-size: 1em;
   letter-spacing: 0.1em;
@@ -385,9 +393,9 @@ ol {
   padding: 15px 25px;
   border: 1px solid #ccc;
   color: #ccc;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   float: left;
   font-size: 1em;
   letter-spacing: 0.1em;
@@ -454,7 +462,7 @@ p {
 /* ==== H1 HEADINGS ====*/
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 2em;
   /* 2x body copy size = 32px */
   line-height: 1.25;
@@ -464,7 +472,7 @@ h1 {
 /* ==== H2 HEADINGS ====*/
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.625em;
   /* 1.625x body copy size = 26px */
   line-height: 1.15384615;
@@ -474,7 +482,7 @@ h2 {
 /* ==== H3 HEADINGS ====*/
 
 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.375em;
   /* 1.375x body copy size = 22px */
   line-height: 1.13636364;
@@ -484,7 +492,7 @@ h3 {
 /* ==== H4 HEADINGS ====*/
 
 h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.125em;
   /* 1.125x body copy size = 18px */
   line-height: 1.11111111;
@@ -493,7 +501,7 @@ h4 {
 /* ==== H5 HEADINGS (DISCLAIMER TEXT) ====*/
 
 h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 12px;
   line-height: 1.25;
   font-weight: 300;
@@ -505,7 +513,7 @@ h5 {
 /* ==== BLOCKQUOTE ====*/
 
 blockquote {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.25em;
   /* 20px / 16px */
   line-height: 1.25;
